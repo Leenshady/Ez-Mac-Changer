@@ -17,8 +17,8 @@
 ### 1. 直接运行 Python 脚本（需 Python 3.8+）
 ```bash
 # 克隆或下载本项目
-git clone https://github.com/yourname/ez-mac-changer.git
-cd ez-mac-changer
+git clone https://github.com/Leenshady/Ez-Mac-Changer.git
+cd Ez-Mac-Changer
 
 # 安装依赖
 pip install netifaces
@@ -28,7 +28,7 @@ python main.py
 ```
 
 ### 2. 使用打包好的 exe（推荐）
-从 [Releases](../../releases) 页面下载最新版本的 `ez-mac-changer.exe`，直接双击运行即可。
+从 [Releases](../../releases) 页面下载最新版本的 `Ez-Mac-Changer.exe`，直接双击运行即可。
 
 ## 🔨 自行打包
 
@@ -63,7 +63,7 @@ pyinstaller --onefile --noconsole --hidden-import netifaces main.py
 
 ## 📄 许可证
 
-本项目采用 [MIT 许可证](LICENSE)。你可以自由使用、修改和分发，但需保留版权声明。
+本项目采用 [GNU General Public License v3.0 许可证](LICENSE)。你可以自由使用、修改和分发，但需保留版权声明。
 
 ## 📮 反馈与贡献
 
